@@ -83,6 +83,8 @@ img {
   letter-spacing: 0.02em;
 }
 .header-address-link {
+  display: inline-flex;
+  align-items: center;
   color: var(--main-text-color);
 }
 .header-address-link:first-child {
@@ -93,6 +95,16 @@ img {
 .header-address-link:hover,
 .header-address-link:focus {
   color: var(--accent-color);
+}
+.header-address-link:hover .address-icon,
+.header-address-link:focus .address-icon {
+  fill: var(--accent-color);
+}
+.address-icon {
+  fill: #afb1b8;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 /* ============ END NAV ============ */
 
